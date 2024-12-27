@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+:root {
+    --DarkGrey: #282b30;
+    --Black : #1e2124;
+    --white: #ffffff;
+}
+
+body{
+    padding: 2%;
+}
+
+html{
+    color: var(--white);
+    background-color: var(--DarkGrey);
+}
+ main{
+    margin-top: 30px;
+}
+
+table{
+    background-color: var(--DarkGrey) !important;
+}
+
+tr{
+    background-color: var(--DarkGrey) !important;
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Modal */
+
+.modal-dialog{
+    color: #1e2124;
+}
